@@ -1,10 +1,10 @@
 id: '414e96d9-5aec-461c-7a0f-08db36925815'
 name: 'DataVault MSSQL'
 description: 'DataVault MSSQL Example'
-version: 'v1.5'
+version: 'v1.6'
 configuration:
   id: 'biGENIUS.Implementation.Generator.Datavault.Mssql'
-  version: '1.9.2'
+  version: '1.10.0'
 sourceSystems:
   - id: 'cbdf229a-4dce-47e1-81a5-71e4bee0edb5'
     name: 'Blackforest Markets'
