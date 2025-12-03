@@ -46,6 +46,7 @@ terms:
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: 'bb036979-7bb7-4a13-ae9a-ad819610a2f9'
     name: 'CUSTOMER_ID'
+    description: 'Unique identifier for the customer, sourced directly from the CUSTOMER_ID field in the source CUSTOMER object.'
     hiddenInSource: false
     hiddenInTarget: false
     isBusinessKey: true
