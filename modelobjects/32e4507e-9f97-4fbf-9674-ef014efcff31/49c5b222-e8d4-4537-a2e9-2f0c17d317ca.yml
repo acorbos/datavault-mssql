@@ -44,32 +44,6 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
-  - id: '905beaad-b62a-4682-a18d-fc219c181f7e'
-    name: 'FK_BRANCH_BRANCH_ID'
-    hiddenInSource: false
-    hiddenInTarget: false
-    isBusinessKey: true
-    isBusinessKeyForeignKey: true
-    isForeignKey: true
-    isIdentity: false
-    isNullable: true
-    dataType:
-      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
-  - id: '421a2c3e-3b06-4de3-b77b-5b83881f3dbc'
-    name: 'BRANCH_BRANCH_HK'
-    description: 'Identifier of the referenced Hub record'
-    defaultTermId: '3e06f270-8fdf-4e8e-80f6-3583cf8bf51c'
-    hiddenInSource: false
-    hiddenInTarget: true
-    isBusinessKey: false
-    isDefaultTerm: true
-    isForeignKey: true
-    isIdentity: false
-    isIdentityForeignKey: true
-    isNullable: false
-    dataType:
-      length: 20
-      platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
   - id: '9a671e4b-ddd6-46b1-a624-20712d52dd91'
     name: 'FK_CUSTOMER_CUSTOMER_ID'
     hiddenInSource: false
@@ -300,9 +274,6 @@ dataflows:
           - termId: '5f150ff8-8245-43d5-8643-0baee03eb633'
           - termId: '651e3adf-df19-470c-8a75-eef4f38c8e6b'
           - termId: 'f8bd91e1-ec6e-4d5b-b055-23272df2c3cb'
-          - expression: '5ecc6c9f-6e91-4bc1-ade4-ff838d74db8b.73b034fc-9efb-4352-bdad-714d6f83b09e'
-            termId: '905beaad-b62a-4682-a18d-fc219c181f7e'
-          - termId: '421a2c3e-3b06-4de3-b77b-5b83881f3dbc'
           - expression: 'a8f4899a-06e9-4737-84df-f58959578bb0.95441857-2f5d-40dc-be87-2d7c6375c459'
             termId: '9a671e4b-ddd6-46b1-a624-20712d52dd91'
           - termId: '37cee7a0-d11f-444c-89fc-a8a12f047e67'
@@ -330,15 +301,6 @@ dataflows:
             termId: '8d623edb-1892-4ac7-8e28-507c68a03025'
           - termId: 'a17f64ad-ba0d-42f3-89bb-d000f775ec8f'
 relationships:
-  - id: '2c4c9e5e-a622-4664-819f-e922ceb9b192'
-    referencedModelObjectId: '085450b6-3d3c-447e-a5aa-05ac2e509fbc'
-    role: 'BRANCH'
-    additionalTermIds:
-      - '421a2c3e-3b06-4de3-b77b-5b83881f3dbc'
-    relationshipTerms:
-      - referenceTermId: '4b90df71-59d9-474f-8f7e-c509e757bb1b'
-        termId: '905beaad-b62a-4682-a18d-fc219c181f7e'
-    propertyValues: []
   - id: '03c088ff-86c5-48e5-8cee-afa639fe6953'
     referencedModelObjectId: '0d0e6612-10b2-441e-b8cf-ea87a4882ff1'
     role: 'CUSTOMER'
