@@ -1,1 +1,6 @@
-[]
+- id: 'f183a0ac-d2ee-47d1-be4f-4348f4081fdb'
+  name: 'exp'
+  exportedAt: '2026-01-26T13:20:41+01:00'
+  exportedModelObjects:
+    - hash: '25c25255884496d308c9ffaa6d595267'
+      modelObjectId: 'cfeb06c6-d7c4-4d31-9c31-768ae6e0faa6'
