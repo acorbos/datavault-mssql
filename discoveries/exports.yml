@@ -4,3 +4,9 @@
   exportedModelObjects:
     - hash: '25c25255884496d308c9ffaa6d595267'
       modelObjectId: 'cfeb06c6-d7c4-4d31-9c31-768ae6e0faa6'
+- id: 'fe8d485f-19f1-431c-9cf2-d4d33cf43a48'
+  name: 'exp1'
+  exportedAt: '2026-01-26T13:26:06+01:00'
+  exportedModelObjects:
+    - hash: 'e2c00d8a355b50d7144278c0d09a497f'
+      modelObjectId: 'f0fb3f33-5e0b-4dfe-ab6a-575ed2bed261'
