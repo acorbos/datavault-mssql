@@ -5,3 +5,6 @@ CustomDocumentationTemplates:
   - Id: 'b9d0cf9d-fbfa-4e17-a9ad-9aeb3c5b3843'
     Name: 'All project links'
     FileName: 'All Project Links.docx'
+  - Id: 'bd94b265-cd5c-4ef6-bf40-f96cf68030be'
+    Name: '3'
+    FileName: 'All Project Links 3.docx'
