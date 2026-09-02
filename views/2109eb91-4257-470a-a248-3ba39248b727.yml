@@ -1,0 +1,10 @@
+id: '2109eb91-4257-470a-a248-3ba39248b727'
+name: 'demo-er-diagram'
+description: ''
+default: false
+type: 'data-model'
+modelObjects:
+  - id: '91970c05-1813-4400-9ede-743a6034096a'
+  - id: '92dfbe12-c7f5-46ff-b98d-ed9195ae56cc'
+  - id: '4f4c8a7b-8760-4e37-881f-12e5b69f8328'
+  - id: '49c5b222-e8d4-4537-a2e9-2f0c17d317ca'
